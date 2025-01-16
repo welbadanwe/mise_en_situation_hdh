@@ -1,0 +1,30 @@
+Question 1 : Comment gérez-vous les transformations de données pour de la grande volumétrie ?
+
+Lorsqu'on travaille sur des grandes quantités de données, je pense qu'il est important de se mettre d'accords sur l'approche à adopter, notamment :
+    - Quel outil adopter pour la creation du pipeline qui est compatible avec l'automatisation des taches, en occurrence ici, il s'agira de spark.
+    -Puis une autre grande etape à effectuer qui est l'organisation des données, il est important de savoir où se trouvent les données, leur niveau de priorité, et comment elles doivent être traitées 
+    -Enfin, faire des essais sur des petits lots de données afin, de verifier que la stratégie fonctionne
+
+
+Question 2 : Quelles sont les différentes étapes d’un projet data ?
+Je pense qu'elle est similaire aux etapes de notre mise en solution :
+    -Debuter par le contexte, les objectifs et le scenario
+    -Identifier les données fournies
+    -Nettoyer ces données et les normaliser
+    -Faire la liste des micro-taches à effectuer, ici c'est construire le schema de travail
+    -Effectuer chaque tache selon une methodologie de suivi de projet.
+    -Enfin documenter puis presenter le projet 
+
+
+Question 3 : Quels outils utilisez-vous en plus pour que cet exercice devienne un vrai cas d'usage en
+entreprise ?
+
+J'utiliserai :
+    -Git pour le versionning
+    -Docker, ou alors un SGBD du type SQLITE ou POSTGRESQL
+    -Python, et les differentes librairies qui ont été par exemple utilisées dans cette mise en situation, mais honnetement, ayant été formé sur l'utilisation de JAVA avec son framework springboot pour la mise en production de ce type de projet, je proposerai cela
+    -Enfin, utiliser un outil de communication sécurisé,
+    -Un outil de presentation de l'evolution du style Notion et son diagramme de progession
+
+Question 4 : Quelle méthodologie de travail serait adaptée à un projet data ? 
+Je pense que c'est la methode Agile, car on se doit d'etre flexible.
